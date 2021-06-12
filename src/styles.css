@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+  Box-Sizing is reset for all elements to border-box
+  @see https://css-tricks.com/box-sizing/ for more information
+*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 0 20px;
+
+  font-family: Roboto, sans-serif;
+  color: #333;
+}
+
+.Title {
+  margin-bottom: 10px;
+}
+
+.Subtitle {
+  margin: 0 0 4px;
+}
+
+.Description {
+  width: 360px;
+  margin: 0;
+}
